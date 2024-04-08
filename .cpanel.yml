@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/interviewe/public_html/
-    - /bin/cp * $DEPLOYPATH
+    - export DEPLOYPATH=/home11/interviewe/public_html/
+    - /bin/cp -r * $DEPLOYPATH
     
